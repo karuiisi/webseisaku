@@ -1,1 +1,2 @@
 # webseisaku
+とりあえず何かwebページ作ってみる
