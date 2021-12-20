@@ -187,6 +187,9 @@ h2 {
   .title{
     font-size:  size 100px;
   }
+  .h2{
+    font-size: size50px;
+  }
 }
 
 /*タブレット端末用*/
@@ -197,6 +200,9 @@ h2 {
   .title{
     font-size:  75px;
   }
+  .h2{
+    font-size: size50px;
+  }
 }
 
 /*スマートフォン用*/
@@ -206,6 +212,9 @@ h2 {
   }
   .title{
     font-size:  50px;
+  }
+  .h2{
+    font-size: size50px;
   }
   .image{
     width: 100%;
