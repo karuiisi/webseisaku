@@ -1,4 +1,20 @@
+/******************************************************************************
+START Glitch hello-app default styles
 
+The styles in this section do some minimal CSS resets, set default fonts and 
+colors, and handle the layout for our footer and "Remix on Glitch" button. If
+you're new to CSS they may seem a little complicated, but you can scroll down
+to this section's matching END comment to see page-specific styles.
+******************************************************************************/
+
+
+/* 
+  The style rules specify elements by type and by attributes such as class and ID
+  Each section indicates an element or elements, then lists the style properties to apply
+  See if you can cross-reference the rules in this file with the elements in index.html
+*/
+
+/* Our default values set as CSS variables */
 :root {
   --color-bg: #69F7BE;
   --color-text-main: #000000;
@@ -115,11 +131,11 @@ body {
 
 /* Very light scaling for our illustration */
 .title {
-  color: #d2691e;
+  color: #000080;
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: bold;
-  font-size: 100px;
+  font-size: 75px;
   line-height: 105%;
   margin: 0;
 }
@@ -151,7 +167,7 @@ input {
 
 /* Subheading */
 h2 {
-  color: #d1722f;
+  color: #000080;
 }
 
 /* Interactive image */
@@ -170,52 +186,37 @@ h2 {
 
 
 
-/*@media screen {
+@media screen {
   body {
     background-color: red;
   }
   .title{
     font-size:  size 100px;
-  }
-}*/
-
-/*PC用*/
-/*@media screen and (min-width: 601px) and (max-width: 1200px)*/  @media screen and (min-width: 1025px){
-  body {
-    background-color: red;
-  }
-  .title{
-    font-size:  size 100px;
-  }
-  .h2{
-    font-size: size50px;
   }
 }
 
-/*タブレット端末用*/
-@media screen and (max-width: 1024px) {
+/*PC用*/
+@media screen and (min-width: 601px) and (max-width: 1200px)  {
   body {
     background-color: blue;
   }
   .title{
     font-size:  75px;
   }
-  .h2{
-    font-size: size50px;
-  }
 }
 
-/*スマートフォン用*/
-@media screen and (max-width: 599px) {
+/*タブレット端末用*/
+@media screen and (max-width: 600px) {
   body {
     background-color: green;
   }
   .title{
     font-size:  50px;
   }
-  .h2{
-    font-size: size50px;
-  }
+}
+
+/*スマートフォン用*/
+@media screen and (max-width: 600px) {
   .image{
     width: 100%;
   }
